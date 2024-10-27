@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/PageHeader.jsx";
 import { Link } from "react-router-dom";
 import delImgUrl from "../../assets/images/shop/del.png";
-import CheckoutPage from "./CheckoutPage";
+import CheckoutPage from "./CheckoutPage.jsx";
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);

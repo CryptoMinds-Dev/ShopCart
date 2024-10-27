@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import PageHeader from "../../components/PageHeader";
-import Tags from "./Tags";
+import PageHeader from "../../components/PageHeader.jsx";
+import Tags from "./Tags.jsx";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles

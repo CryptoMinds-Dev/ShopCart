@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Rating from "../../components/Sidebar/rating";
+import Rating from "../../components/Sidebar/Rating.jsx";
 
 const title = "Our Products";
 

@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
-import PageHeader from "../../components/PageHeader";
+import PageHeader from "../../components/PageHeader.jsx";
 import { Component, Fragment, useState } from "react";
-import Search from "./Search";
-import Pagination from "./Pagination";
-import ShopCategory from "./ShopCategory";
-import PopularPost from "./PopularPost";
-import Tags from "./Tags";
-import ProductCards from "./ProductCards";
+import Search from "./Search.jsx";
+import Pagination from "./Pagination.jsx";
+import ShopCategory from "./ShopCategory.jsx";
+import PopularPost from "./PopularPost.jsx";
+import Tags from "./Tags.jsx";
+import ProductCards from "./ProductCards.jsx";
 const showResult = "Showing 01 - 12 of 139 Results";
 import Data from "/src/products.json"
 

@@ -1,6 +1,6 @@
 import React from "react";
-import GoogleMap from "../../components/Sidebar/GoogleMap";
-import PageHeader from "../../components/PageHeader";
+import GoogleMap from "../../components/Sidebar/GoogleMap.jsx";
+import PageHeader from "../../components/PageHeader.jsx";
 
 const subTitle = "Get in touch with us";
 const title = "We're Always Eager To Hear From You!";
